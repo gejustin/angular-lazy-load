@@ -1,6 +1,6 @@
 {
   "name": "angular-lazy-load",
-  "version": "1.0.0",
+  "version": "1.0.0-beta",
   "description": "AngularJS Module for lazy loading content",
   "main": "Gruntfile.js",
   "scripts": {

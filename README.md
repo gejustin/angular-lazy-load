@@ -1,5 +1,5 @@
 # angular-lazy-load
-**Version 1.0.0**
+**Version 1.0.0-beta**
 
 ## Overview
 AngularJS Module for lazy loading content. This module exposes custom angular directives and a service provider for loading content lazily.
