@@ -1,0 +1,37 @@
+{
+  "name": "angular-lazy-load",
+  "version": "1.0.0",
+  "description": "AngularJS Module for lazy loading content",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gary justin",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-umd": "^2.3.3",
+    "load-grunt-tasks": "^3.2.0",
+    "time-grunt": "^1.2.1",
+    "grunt-wiredep": "^2.0.0"
+  },
+  "devDependencies": {
+    "karma": "^0.13.3",
+    "chai": "^3.2.0",
+    "grunt": "^0.4.5",
+    "grunt-karma": "^0.12.0",
+    "mocha": "^2.2.5",
+    "karma-mocha": "^0.2.0",
+    "karma-ng-html2js-preprocessor": "^0.1.2",
+    "phantomjs": "^1.9.17",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "karma-sinon-chai": "^1.0.0",
+    "karma-spec-reporter": "0.0.20",
+    "karma-chrome-launcher": "^0.2.0"
+  }
+}

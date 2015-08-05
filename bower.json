@@ -1,0 +1,33 @@
+{
+  "name": "angular-lazy-load",
+  "version": "1.0.0",
+  "authors": [
+    "gary.justin <gary.justin@forrent.com>"
+  ],
+  "description": "Angular JS Module for Lazy Loading content.",
+  "moduleType": [
+    "amd",
+    "es6"
+  ],
+  "keywords": [
+    "Angular",
+    "Lazy",
+    "Load"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3"
+  },
+  "devDependencies": {
+    "ng-describe": "~1.1.0",
+    "angular-mocks": "~1.4.3"
+  }
+}
