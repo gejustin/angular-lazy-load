@@ -25,7 +25,10 @@ module.exports = function(grunt) {
         },
         concat: {
             core: {
-                src: ['<%= lib_files.src %>'],
+                src: [
+                    '<%= lib_files.src %>',
+                    '!<%= lib_files.tests %>'
+                ],
                 dest: '<%= config.build_dir %>/angular-lazy-load.js'
             }
         },
