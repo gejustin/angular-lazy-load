@@ -88,7 +88,7 @@ During the configuration phase of your angular application, you can setup applic
 `setTestsCache(cache)` - Configure an application wide test function cache. These callbacks can be referenced in the directive or service by the property name on the cache object.
 
 ```JavaScript
-angular.module('your.module)
+angular.module('your.module')
     .config(['lazyLoadProvider', function(lazyLoadProvider){
         lazyLoadProvider
             .setTestsCache({
@@ -153,7 +153,7 @@ You can also use the functionality as a standalone service in your own custom di
 `options` - {Object} options object to override default settings.
 
 ```JavaScript
-angular.module('your.module)
+angular.module('your.module')
     .controller(['lazyLoad'], function(lazyLoad){
         
         lazyLoad.lazyLoad(document.getElementById('someId'), {
